@@ -1,0 +1,271 @@
+/* Color Variables */ 
+:root {
+--RaisinBlack: #252323;
+--White: #FFFFFF;
+}
+
+/* Title Slide */
+title-slide {
+  background-color: #303b5b;
+}
+
+/* SJ added */
+
+.remark-slide-content h3 {
+  font-size: 1.5rem;
+}
+
+.remark-slide-content h2 {
+  font-size: 2.5rem;
+}
+
+.remark-slide-content {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.remark-code {
+  margin-top: -1rem;
+}
+
+.pull-right, .pull-right-text {
+  float: right;
+  width: 47.5%;
+}
+
+.intro-text {
+    font-size: 80%;
+    margin-top: 5rem;  
+    margin-left: 2rem;    
+}
+
+.intro-code {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.intro-code2 {
+  font-size: 70%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+.intro-high {
+  font-family: 'Roboto Slab', sans-serif; 
+}
+
+
+ul {
+   font-size: 80%;
+ }
+
+.pull-right-text
+{
+/*  background: red; */
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-left: 0px; 
+  color: white;  
+}
+
+/* Code Text */
+.remark-code{
+  font-size: 60%;
+}
+
+.remark-inline-code {
+   color: yellow;
+   font-size: 100%;
+}
+
+.pull-left {
+  width: 48%;
+/*  margin-left: -1em; */
+}
+
+.pull-left-bottom {
+  font-size: 80%;
+  width: 43%;
+  position: absolute;
+  bottom: 1rem;
+  left: 4rem;
+/*  margin-left: -1em; */
+}
+
+.left-small {
+  font-size: 85%;
+/*  margin-left: -1em; */
+}
+
+
+.plot-text {
+    font-size: 55%;
+    margin-top: -1rem;    
+}
+
+.reference-text {
+    font-size: 80%;	
+}
+
+
+/* End SJ added */
+
+
+.inverse-intro {
+  background: linear-gradient(90deg, #FFFFFF 50%, #353333 50%);
+  text-shadow: none;
+}
+
+.header-intro {
+    background: linear-gradient(110deg, #353333 50%, #456666 50%);
+    width: 50%;
+    color: white;
+    position: absolute;
+    padding: 5px;
+    top: 0px;
+    right: .75em;
+    font-size: 90%;
+    line-height: 1.3em;
+    text-align: right;}
+
+.inverse-basic {
+/*  background: linear-gradient(90deg, #FFFFFF 50%, #596d80 50%); */
+  background: linear-gradient(90deg, #FFFFFF 50%, #103030 50%); 
+  text-shadow: none;
+}
+.header-basic {
+	
+    background: linear-gradient(110deg, #103030 50%, #406060 50%); 
+    width: 46%;
+    color: white;
+    position: absolute;
+    padding: 5px;
+    top: 0px;
+    right: .75em;
+    font-size: 90%;
+    line-height: 1.3em;
+    text-align: right;}
+
+.inverse-cosmetics {
+  background: linear-gradient(90deg, #FFFFFF 50%, #301030 50%);
+  text-shadow: none;
+}
+.header-cosmetics {
+    background: linear-gradient(110deg, #301030 50%, #604060 50%); 
+    width: 46%;
+    color: white;
+    position: absolute;
+    padding: 5px;
+    top: 0px;
+    right: .75em;
+    font-size: 90%;
+    line-height: 1.3em;
+    text-align: right;}
+
+.inverse-multi {
+  background: linear-gradient(90deg, #FFFFFF 50%, #301010 50%);
+  text-shadow: none;
+}
+.header-multi {
+    background: linear-gradient(110deg, #301010 50%, #604040 50%);
+    width: 46%;
+    color: white;
+    position: absolute;
+    padding: 5px;
+    top: 0px;
+    right: .75em;
+    font-size: 90%;
+    line-height: 1.3em;
+    text-align: right;}
+
+.inverse-custom {
+  background: linear-gradient(90deg, #FFFFFF 50%, #303010 50%);
+  text-shadow: none;
+}
+.header-custom {
+    background: linear-gradient(110deg, #303010 50%, #606040 50%);
+    width: 46%;
+    color: white;
+    position: absolute;
+    padding: 5px;
+    top: 0px;
+    right: .75em;
+    font-size: 90%;
+    line-height: 1.3em;
+    text-align: right;}
+
+
+/* Color Variables for Text */
+.my-black{ color: var(--RaisinBlack);}
+
+.my-white{ color: var(--White);}
+
+.footer-white{ 
+   color: var(--White);
+   position: absolute;
+   bottom: 1em;
+   right: 1em;
+   text-align: right;
+}
+
+
+.my-title{
+   color: black;
+   font-family: 'Roboto Mono', monospace;
+   font-size: 80px;   
+   font-weight: 4;
+   
+}
+
+.my-white2{ 
+   color: var(--White);
+   font-size: 2.2rem;
+   font-family: 'Josefin Sans', sans-serif; 
+}
+
+.my-black2{ 
+   color: var(--RaisinBlack); 
+}
+.my-black3{ 
+   color: var(--RaisinBlack); 
+   position: absolute;
+   left: 2em;
+   top: 1em;
+   text-align: right;
+/*   font-size: 2.2rem; */
+/*   font-family: 'Josefin Sans', sans-serif; */
+}
+
+
+/* Footers */
+.footer {
+    background: linear-gradient(110deg, #485870 50%, #c07b52 50%);
+    /*background-color: #252323;
+    border-width: 0.70em;
+    border-style:solid;
+    border-color: #252323; 
+    opacity:0.25;*/
+    width: 45%;
+    color: white;
+    position: absolute;
+    padding: .75em;
+    bottom: 2em;
+    right: .75em;
+    font-size: 90%;
+    line-height: 1.3em;
+}
+
+.footer1 {
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+    color: white;
+}
+
+/* Hiding Slide Number */
+.remark-slide-number { 
+  display: none; 
+}
+
+
+
+
