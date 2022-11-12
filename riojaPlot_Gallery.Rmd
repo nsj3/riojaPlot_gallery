@@ -64,11 +64,11 @@ class: inverse-basic
 
 - Easy to use - just call .intro-code[**riojaPlot**] with two data frames, the first containing variables to be plotted and the second containing one or more chronology variables for the y-axis, e.g. .intro-code[**riojaPlot(x, y)**]. See section .intro-high[[**`r G1`**](#3)]. 
 
-- Flexible - it has a number of different plotting styles and ability to add a secondary y-axis, cumulative summary plot, zones and lithology.  See section .intro-high[[**`r G2`**](#14)]. 
+- Flexible - with a number of different plotting styles and ability to add a secondary y-axis, cumulative summary plot, zones and lithology.  See section .intro-high[[**`r G2`**](#14)]. 
 
-- Composite diagrams can be made containing multiple datasets or proxies, measured at different depth intervals, and each with their own style.  See section .intro-high[[**`r G3`**](#28)]. 
+- Build complex diagrams showing multiple datasets or proxies measured at different depth intervals, each with their own style.  See section .intro-high[[**`r G3`**](#28)]. 
 
-- Customisable - riojaPlot allows the use of user-defined plotting functions to customise plots and add additional features such as gam smoothes, breakpoints, or customised labels.  See section .intro-high[[**`r G4`**](#33)].
+- Customisable - .intro-code[**riojaPlot**] allows the use of user-defined plotting functions to customise plots and add additional features such as gam smoothes, breakpoints, or customised labels.  See section .intro-high[[**`r G4`**](#33)].
 
 Press .intro-high[**Control-F**] to search the gallery, press ".intro-high[**o**]" for an overview.
 
