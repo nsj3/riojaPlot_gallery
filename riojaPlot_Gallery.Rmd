@@ -991,10 +991,10 @@ riojaPlot(poll, chron, selVars=selTaxa,
           scale.percent=TRUE,
           cex.xaxis=0.5, 
           cex.xlabel=0.7,
-          xRight=0.8) |>
-addRPZoneNames(zones, xLeft=0.82, xRight=0.9, cex=0.6)  |>
-addRPClust(clust) |>
-addRPClustZone(clust, col="red")
+          xRight=0.82) |>
+addRPZoneNames(zones, xRight=0.9, cex=0.6)  |>
+addRPClustZone(clust, col="red") |>
+addRPClust(clust)
 ```
 ]
 
@@ -1089,8 +1089,8 @@ rp2 <- riojaPlot(rlgh.pH, rlgh.chron, riojaPlot=rp1,
            plot.bar=FALSE, 
            plot.symb=TRUE,
            symb.cex=0.6, xRight=0.92) 
-addRPClust(rp2, clust, xLeft=0.93) 
-addRPClustZone(rp1, clust, nZone=3, xRight=0.92, col="red") 
+rp3 <- addRPClustZone(rp2, clust, nZone=3, xRight=0.92, col="red") 
+addRPClust(rp3, clust, xLeft=0.93) 
 ```
 ]
 
@@ -1358,7 +1358,7 @@ myfun <- function(x, y, i, nm, style) {
   text(usr[2], usr[4]+0.5, name, adj=c(0, 0.5), xpd=NA, srt=-90, cex=0.7)
   xval <- seq(0, usr[2], by=10) # create a vector of labels for the axis
   xlab <- rep("", length(xval))
-  axis(side=3, at=xval, labels=xlab, tcl=-0.2, cex.xaxis=0.5, mgp=c(3, 0.1, 0))
+  axis(side=3, at=xval, labels=xlab, tcl=-0.2, cex.axis=0.5, mgp=c(3, 0.1, 0))
   xlab <- as.character(xval); xlab[1] <- ""
   text(xlab, usr[4]-0.5, xval, cex=0.5, srt=-90, adj=c(1, 0), xpd=NA) # ad the x-axis vales
 }
