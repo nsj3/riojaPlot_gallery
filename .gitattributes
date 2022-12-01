@@ -24,3 +24,4 @@
 *.html linguist-detectable=false
 *.r linguist-detectable=true
 *.js linguist-detectable=false
+*.css linguist-detectable=false
